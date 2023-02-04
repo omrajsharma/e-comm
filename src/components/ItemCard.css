@@ -1,0 +1,40 @@
+.item-card-container {
+    width: 300px ;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.item-card-container:hover {
+    box-shadow: 0 0 10px #ccc;
+}
+.item-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+} 
+.item-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-card-price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.item-card-title {
+
+}
+.item-card-desc {
+    font-size: 12px;
+    color: #666;
+}
+.item-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 10px ;
+    color: #666;
+    font-weight: 300;
+}
