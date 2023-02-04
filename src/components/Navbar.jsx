@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import {
   BrowserRouter as Router,
@@ -23,8 +22,6 @@ function CollapsibleExample() {
           <Nav>
             <Link to="/signup">Signup</Link> &nbsp;
             <Link to="/signin">Login</Link> &nbsp;
-            {/* <Nav.Link href="/signup">Signup</Nav.Link>
-            <Nav.Link eventKey={2} href="/signin">Login</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
