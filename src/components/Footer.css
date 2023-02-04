@@ -2,6 +2,47 @@ footer {
     background-color: #000;
     color: #fff;
     padding: 1rem;
+}
+.footer-top {
+    max-width: 1040px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between ;
+}
+.footer-col-head {
+    font-size: 0.8rem;
+}
+.footer-col-item {
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+    color: #bcbcbc;
+}
+.footer-col-item:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline ;
+}
+.footer-brand-col {
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+    align-items: center;
     text-align: center;
-    font-size: 0.6rem;
+}
+.footer-brand-col img {
+    width: 180px;
+}
+.footer-brand-social img {
+    width: 30px;
+    margin: 0 0.5rem;
+}
+.footer-brand-app-download {
+    display: flex;
+    gap: .5rem;
+}
+.footer-brand-app-download img {
+    width: 85px;
+}
+.footer-bottom {
+    text-align: center;
 }
