@@ -1,0 +1,8 @@
+.nav-item {
+    color: #dedede;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-item:hover {
+    color: rgb(255, 177, 10);
+}
