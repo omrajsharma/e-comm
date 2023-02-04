@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css'
+import BuySellLogo from '../assets/buy-sell-crop-logo.png'
 
 import {
   BrowserRouter as Router,
@@ -12,7 +13,9 @@ function CollapsibleExample() {
   return (
     <Navbar id='navbar' collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Link className='navbar-brand' to="/">Buy&Sell</Link>
+        <Link className='navbar-brand' to="/">
+          <img src={BuySellLogo} alt="" />
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
