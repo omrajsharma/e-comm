@@ -38,13 +38,13 @@ function Footer() {
               </div>
               <div className="footer-col">
                 <div className="footer-col-head">About Us</div>
-                <div className="footer-col-item">About OLX Group</div>
-                <div className="footer-col-item">OLX Blog</div>
+                <div className="footer-col-item">About BuySell Group</div>
+                <div className="footer-col-item">BuySell Blog</div>
                 <div className="footer-col-item">Contact Us</div>
-                <div className="footer-col-item">OLX for Businesses</div>
+                <div className="footer-col-item">BuySell for Businesses</div>
               </div>
               <div className="footer-col">
-                <div className="footer-col-head">OLX</div>
+                <div className="footer-col-head">BuySell</div>
                 <div className="footer-col-item">Help</div>
                 <div className="footer-col-item">Sitemap</div>
                 <div className="footer-col-item">Legal & Privacy information</div>
