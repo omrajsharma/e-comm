@@ -10,7 +10,7 @@ import {
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar id='navbar' collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link className='navbar-brand' to="/">Buy&Sell</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
