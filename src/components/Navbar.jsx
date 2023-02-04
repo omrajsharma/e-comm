@@ -16,36 +16,15 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-
-            {/* <Router>
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>  
-              <Link to="/contact">Contact</Link>
-            </Router> */}
-
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
+            <Link to="/">Home</Link> &nbsp;
+            <Link to="/about">About</Link> &nbsp;
+            <Link to="/contact">Contact</Link> &nbsp;
           </Nav>
           <Nav>
-
-            {/* <Router>
-              <Link to="/signup">Signup</Link>
-              <Link to="/signin">Login</Link>
-            </Router> */}
-
-            <Nav.Link href="/signup">Signup</Nav.Link>
-            <Nav.Link eventKey={2} href="/signin">Login</Nav.Link>
+            <Link to="/signup">Signup</Link> &nbsp;
+            <Link to="/signin">Login</Link> &nbsp;
+            {/* <Nav.Link href="/signup">Signup</Nav.Link>
+            <Nav.Link eventKey={2} href="/signin">Login</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -18,9 +18,16 @@ function App() {
 
   return (
     <div>
-      <Navbar/>
 
       <Router>
+        <Navbar/>
+
+
+        {/* <Link to="/">Home</Link> <br />
+        <Link to="/about">About</Link> <br />
+        <Link to="/contact">Contact</Link> <br /> */}
+
+
         <Switch>
           <Route path="/about">
             <About/>
