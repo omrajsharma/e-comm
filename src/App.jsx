@@ -6,7 +6,6 @@ import Signup from './components/Signup'
 import Footer from './components/Footer'
 import ItemList from './components/ItemList'
 import Navbar from './components/Navbar'
-import Product from './product/Product'
 
 import {
   BrowserRouter as Router,
@@ -34,12 +33,6 @@ function App() {
           </Route>
           <Route path="/signup">
             <Signup/>
-          </Route>
-          <Route path="/product">
-            <Product/>
-          </Route>
-          <Route path="/product/:id">
-            <Product/>
           </Route>
           <Route path="/">
             <ItemList/>
