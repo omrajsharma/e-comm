@@ -3,6 +3,8 @@ import axios from 'axios'
 import './RecommendationList.css'
 import ItemCard from '../molecules/ItemCard'
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
+
 
 function RecommendationList() {
 
@@ -13,7 +15,7 @@ function RecommendationList() {
       .then(response => {
         let itemsList = [];
         for (let key in response.data) {
-          itemsList.push(response.data[key])
+          itemsList.push({...response.data[key], id: key})
         }
         setItemsList(itemsList)
       })
@@ -37,15 +39,16 @@ function RecommendationList() {
                             itemsList.length === 0 
                             ? <h3>No items found</h3>
                             : itemsList.map((item, index) => (
+                              <Link to={`/product/${item.id}`} key={index}>
                                 <ItemCard
-                                key={index}
-                                itemImg={item.itemImg}
-                                itemPrice={item.itemPrice}
-                                itemTitle={item.itemTitle}
-                                itemDesc={item.itemDesc}
-                                itemPlace={item.itemPlace}
-                                itemDate={item.itemDate}
+                                  itemImg={item.itemImg}
+                                  itemPrice={item.itemPrice}
+                                  itemTitle={item.itemTitle}
+                                  itemDesc={item.itemDesc}
+                                  itemPlace={item.itemPlace}
+                                  itemDate={item.itemDate}
                                 />
+                              </Link>
                             ))
                         }
                     </div>

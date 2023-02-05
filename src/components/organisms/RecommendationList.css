@@ -1,4 +1,11 @@
-
+.recommendation-list-slider a {
+    text-decoration: none;
+    color: #000;
+}
+.recommendation-list-slider a:hover {
+    text-decoration: none;
+    color: #000;
+}
 .recommendation-section {
     margin-top: 20px;
     padding: 1rem;

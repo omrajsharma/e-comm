@@ -1,3 +1,11 @@
+.item-list a {
+    text-decoration: none;
+    color: #000;
+}
+.item-list a:hover {
+    text-decoration: none;
+    color: var(--color-primary);
+}
 .item-card-container {
     background-color: white;
     width: 300px ;

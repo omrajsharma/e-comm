@@ -11,9 +11,9 @@ import ItemList from './components/organisms/ItemList'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import ProductDetail from './components/Pages/ProductDetail'
 
 function App() {
 
@@ -41,6 +41,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <Signup/>
+          </Route>
+          <Route path="/product/:id">
+            <ProductDetail/>
           </Route>
           <Route path="/">
             <Home />
