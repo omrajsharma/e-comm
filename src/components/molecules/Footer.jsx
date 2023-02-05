@@ -1,9 +1,9 @@
 import React from 'react'
-import BuySellLogo from '../assets/buy-sell-crop-logo.png'
-import FacebookIcon from '../assets/icons/facebook.png'
-import TwitterIcon from '../assets/icons/twitter.png'
-import InstagramIcon from '../assets/icons/instagram.png'
-import LinkedinIcon from '../assets/icons/linkedin.png'
+import BuySellLogo from '../../assets/buy-sell-crop-logo.png'
+import FacebookIcon from '../../assets/icons/facebook.png'
+import TwitterIcon from '../../assets/icons/twitter.png'
+import InstagramIcon from '../../assets/icons/instagram.png'
+import LinkedinIcon from '../../assets/icons/linkedin.png'
 import './Footer.css'
 
 function Footer() {
