@@ -5,7 +5,7 @@ import About from './components/Pages/About'
 import Contact from './components/Pages/Contact'
 import Signin from './components/Pages/Signin'
 import Signup from './components/Pages/Signup'
-import ItemList from './components/ItemList'
+import ItemList from './components/organisms/ItemList'
 
 import {
   BrowserRouter as Router,

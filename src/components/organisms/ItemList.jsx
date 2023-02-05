@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import ItemCard from './molecules/ItemCard'
+import ItemCard from '../molecules/ItemCard'
 import './ItemList.css'
 import axios from 'axios'
 
