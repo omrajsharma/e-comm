@@ -1,11 +1,11 @@
 import React from 'react'
-import About from './components/About'
-import Contact from './components/Contact'
-import Signin from './components/Signin'
-import Signup from './components/Signup'
-import Footer from './components/Footer'
-import ItemList from './components/ItemList'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import About from './components/Pages/About'
+import Contact from './components/Pages/Contact'
+import Signin from './components/Pages/Signin'
+import Signup from './components/Pages/Signup'
+import ItemList from './components/ItemList'
 
 import {
   BrowserRouter as Router,
