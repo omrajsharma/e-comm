@@ -1,9 +1,11 @@
 .item-card-container {
+    background-color: white;
     width: 300px ;
     padding: 5px 10px;
     border: 1px solid #ccc;
     cursor: pointer;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 .item-card-container:hover {
     box-shadow: 0 0 10px #ccc;

@@ -1,0 +1,26 @@
+
+.recommendation-section {
+    margin-top: 20px;
+    padding: 1rem;
+    background-color: #d1d5d9;
+    border-radius: 10px;
+}
+.recommendation-list-title {
+}
+.recommendation-list {
+    display: flex;
+    overflow-x: auto;
+}
+.recommendation-list-slider {
+    display: flex;
+    gap: 1rem;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.recommendation-list::-webkit-scrollbar {
+    display: none;
+  }  
+/* Hide scrollbar for IE, Edge and Firefox */
+.recommendation-list {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
