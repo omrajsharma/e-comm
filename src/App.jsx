@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/molecules/Navbar'
 import Footer from './components/molecules/Footer'
+import Home from './components/Pages/Home'
 import About from './components/Pages/About'
 import Contact from './components/Pages/Contact'
 import Signin from './components/Pages/Signin'
@@ -42,7 +43,7 @@ function App() {
             <Signup/>
           </Route>
           <Route path="/">
-            <ItemList/>
+            <Home />
           </Route>
         </Switch>
       </Router>
