@@ -1,0 +1,100 @@
+.product-detail-row {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.product-detail-row .col {
+    min-height: 80vh;
+}
+.product-detail-col-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.product-detail_img {
+    width: 80%;
+    border-radius: 15px;
+}
+.product-detail-col-r {
+
+}
+.product-detail-col-r h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.product-detail_desc {
+    font-size: 16px;
+    font-weight: 300;
+    color: #464646;
+}
+.product-detail_price {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.product-detail_price_main {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+.product-detail_price p {
+    margin: 0;
+}
+.product-detail_price_current {
+    font-size: 24px;
+    font-weight: 600;
+}
+.product-detail_price_original {
+    font-size: 16px;
+    color: #464646;
+    text-decoration: line-through;
+}
+.product-detail_price_discount {
+    color: var(--color-primary);
+    font-weight: 800;
+}
+.product-detail_price_sub p {
+    font-size: 12px;
+    color: #464646;
+}
+
+.product-detail_features {
+    margin: 20px 0;
+    text-align: justify;
+}
+.product-detail_features ul li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #464646;
+    margin-bottom: 10px;
+}
+
+.product-detail_btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.product-detail_btn {
+    font-weight: 600;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+    width: 40%;
+    height: 50px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-detail_btn svg {
+    width: 20px;
+    margin-right: 10px;
+}
+.product-detail_btn_add:hover {
+    border: 1px solid #464646;
+}
+.product-detail_btn_buy {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: 1px solid var(--color-primary);
+}
