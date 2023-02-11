@@ -13,3 +13,15 @@
 .nav-item:hover {
     color: var(--color-primary);
 }
+.navbar-nav a {
+    position: relative;
+}
+.navbar-nav a svg {
+    width: 20px;
+}
+.navbar-nav a .badge {
+    position: absolute;
+    right: -12px;
+    font-size: 10px;
+    top: -8px;
+}
