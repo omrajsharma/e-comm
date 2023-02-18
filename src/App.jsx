@@ -14,14 +14,22 @@ import {
   Route
 } from "react-router-dom";
 import ProductDetail from './components/Pages/ProductDetail'
+import Cart from './components/Pages/Cart'
 
 function App() {
+  const [cartList, setCartList] = React.useState([])
+
+  const addToCart = (item) => {
+    setCartList([...cartList, item])
+  }
 
   return (
     <div>
 
       <Router>
-        <Navbar/>
+        <Navbar
+          cartList={cartList}
+        />
 
 
         {/* <Link to="/">Home</Link> <br />
@@ -43,7 +51,12 @@ function App() {
             <Signup/>
           </Route>
           <Route path="/product/:id">
-            <ProductDetail/>
+            <ProductDetail
+              addToCart={addToCart}
+            />
+          </Route>
+          <Route path="/cart">
+            <Cart/>
           </Route>
           <Route path="/">
             <Home />
