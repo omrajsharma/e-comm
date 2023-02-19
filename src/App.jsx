@@ -23,6 +23,10 @@ function App() {
     setCartList([...cartList, item])
   }
 
+  const removeFromCart = (item) => {
+    setCartList(cartList.filter((cartItem) => cartItem.id !== item.id))
+  }
+
   return (
     <div>
 
@@ -56,7 +60,10 @@ function App() {
             />
           </Route>
           <Route path="/cart">
-            <Cart/>
+            <Cart
+              cartList={cartList}
+              removeFromCart={removeFromCart}
+            />
           </Route>
           <Route path="/">
             <Home />
