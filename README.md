@@ -2,7 +2,6 @@
 
 ### A simple e-commerce website built with React
 
-
 ---
 ## Dependencies :
 
